@@ -8,6 +8,6 @@ class Worker
     }
     public function bye()
     {
-        return "bey";
+        return "bye";
     }
 }
