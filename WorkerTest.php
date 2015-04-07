@@ -9,4 +9,10 @@ class WorkerTest extends PHPUnit_Framework_TestCase
         $this->assertSame("hello", $target->hello());
 
     }
+    
+    public function testBye()
+    {
+        $target = new Worker();
+        $this->assertSame("bye", $target->bye());
+    }
 }
